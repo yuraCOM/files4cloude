@@ -1,3 +1,4 @@
+
 # files4cloude
 
 Cloud Store https://cloud4store.herokuapp.com/  Сервер и Клиент деплой на Heroku
@@ -29,3 +30,6 @@ client папка = front-end.....
     "bcryptjs": "^2.4.3",
     "config": "^3.3.7",
      
+![Снимок экрана (375)](https://user-images.githubusercontent.com/25771381/189933672-f2ec5f53-3c9f-4756-a5b4-3062f70a9cfc.png)
+![Снимок экрана (376)](https://user-images.githubusercontent.com/25771381/189933679-c77fce01-06e1-4fea-8821-27f989ba9a1f.png)
+![Снимок экрана (377)](https://user-images.githubusercontent.com/25771381/189933680-35106cd9-d4fc-4da4-902a-ef122d11f719.png)
