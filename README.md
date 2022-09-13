@@ -8,8 +8,8 @@ https://cloud4store.herokuapp.com/
 
 ------------------------------------
 server папка = сервер с базой данных.....
-        "bcryptjs": "^2.4.3",
-        "config": "^3.3.7",
+"bcryptjs": "^2.4.3",
+"config": "^3.3.7",
         "express": "^4.18.1",
         "express-fileupload": "^1.4.0",
         "express-validator": "^6.14.2",
