@@ -1,0 +1,7 @@
+{
+  "serverPort": 5000,
+  "dbUrl": "mongodb+srv://yura:q12345@cloud.xwmzxnh.mongodb.net/?retryWrites=true&w=majority",
+  "secretKey": "GarryPotter",
+  "filePath": "E:/REACT/220818 Mongo Express React Node CloudStore/server/files",
+  "staticPath": "E:/REACT/220818 Mongo Express React Node CloudStore/server/static"
+}
