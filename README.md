@@ -18,8 +18,8 @@ server папка = сервер с базой данных,
         "nodemon": "^2.0.19"
          
 ------------------------------------
-client папка = front-end
-"dependencies": {
+client папка = front-end..... 
+
     "axios": "^0.27.2",
     "express": "^4.18.1",
     "react": "^18.2.0",
@@ -29,8 +29,6 @@ client папка = front-end
     "react-scripts": "5.0.1",
     "react-transition-group": "^4.4.5",
     "redux": "^4.2.0",
-    
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1",
-  },
-
+  
