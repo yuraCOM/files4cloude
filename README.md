@@ -4,7 +4,12 @@ Cloud Store https://cloud4store.herokuapp.com/  Сервер и Клиент д�
 
 server папка = сервер с базой данных.....
 
-
+         express": "^4.18.1",
+         "express-fileupload": "^1.4.0",
+         "express-validator": "^6.14.2",
+         "jsonwebtoken": "^8.5.1",
+         "mongoose": "^6.5.2"
+         "nodemon": "^2.0.19"
          
          
 
@@ -22,11 +27,5 @@ client папка = front-end.....
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1",
     "bcryptjs": "^2.4.3",
-"config": "^3.3.7",
- "express": "^4.18.1",
- "express-fileupload": "^1.4.0",
-  "express-validator": "^6.14.2",
-  "jsonwebtoken": "^8.5.1",
-  "mongoose": "^6.5.2"
-  "nodemon": "^2.0.19"
-  
+    "config": "^3.3.7",
+     
