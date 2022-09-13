@@ -1,0 +1,100 @@
+.file {
+    margin: 10px 0;
+    border-bottom: solid 2px #566885;
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(4, 1fr);
+    align-items: center;
+}
+
+.file:hover {
+    /* transform: scale(1.02); */
+    background-color: rgba(62, 246, 45, 0.313);
+    cursor: pointer;
+}
+
+.file__img {
+    justify-self: center;
+    width: 55%;
+}
+
+.file__date {
+    grid-column-start: 5;
+    justify-self: center;
+}
+
+.file__size {
+    grid-column-start: 6;
+    justify-self: center;
+}
+
+.file__btn {
+    display: none;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    border: 0;
+    cursor: pointer;
+}
+
+.file__btn:hover {
+    transform: scale(1.2);
+}
+
+.file__download {
+    background-image: url("../../../../assets/img/download.png");
+}
+
+.file__download:hover {
+    border: 2px solid rgb(20, 96, 229);
+}
+
+.file__delete {
+    background-image: url("../../../../assets/img/trash.png");
+}
+
+.file__delete:hover {
+    border: 2px solid red;
+}
+
+
+.file:hover .file__date {
+    grid-column-start: 3;
+}
+
+.file:hover .file__size {
+    grid-column-start: 4;
+}
+
+.file:hover .file__download {
+    grid-column-start: 5;
+    display: block;
+}
+
+.file:hover .file__delete {
+    grid-column-start: 6;
+    display: block;
+}
+
+.file-plate {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-plate__img {
+    height: 100px;
+    width: 100px;
+}
+
+.file-plate__btns {
+    display: none;
+}
+
+.file-plate:hover .file-plate__btns {
+    display: flex;
+}

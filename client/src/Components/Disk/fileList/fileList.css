@@ -1,0 +1,54 @@
+.filelist {
+    margin: 20px 0;
+}
+
+.filelist__header {
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(4, 1fr);
+}
+
+.file-list__path {
+    margin: 10px 20px;
+    border-bottom: solid 1px #5d8bd5;
+}
+
+.filelist__type {
+    justify-self: center;
+}
+
+.filelist__name {
+    grid-column-start: 2;
+}
+
+.filelist__date {
+    grid-column-start: 5;
+    justify-self: center;
+}
+
+.filelist__size {
+    grid-column-start: 6;
+    justify-self: center;
+}
+
+.file-enter-active {
+    animation: file-enter 500ms forwards;
+}
+
+.fileplate {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+@keyframes file-enter {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
