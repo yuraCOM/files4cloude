@@ -8,14 +8,16 @@ https://cloud4store.herokuapp.com/
 
 ------------------------------------
 server папка = сервер с базой данных.....
+
 "bcryptjs": "^2.4.3",
 "config": "^3.3.7",
-        "express": "^4.18.1",
-        "express-fileupload": "^1.4.0",
-        "express-validator": "^6.14.2",
-        "jsonwebtoken": "^8.5.1",
-        "mongoose": "^6.5.2"
-        "nodemon": "^2.0.19"
+ "express": "^4.18.1",
+ "express-fileupload": "^1.4.0",
+  "express-validator": "^6.14.2",
+  "jsonwebtoken": "^8.5.1",
+  "mongoose": "^6.5.2"
+  "nodemon": "^2.0.19"
+         
          
 ------------------------------------
 client папка = front-end..... 
