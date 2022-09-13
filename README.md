@@ -1,10 +1,6 @@
 # files4cloude
 
-Cloud Store
-
-https://cloud4store.herokuapp.com/
-
-Сервер и Клиент деплой на Heroku
+Cloud Store https://cloud4store.herokuapp.com/  Сервер и Клиент деплой на Heroku
 
 ------------------------------------
 server папка = сервер с базой данных.....
